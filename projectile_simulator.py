@@ -19,6 +19,8 @@ def main():
     # 1. Get parameters
     parameters = get_input_parameters()
 
+    print("Hello World!")
+
     # 2. Use received parameters.
     print(f"\nSimulation Starting!")
     print(f"Velocity: {parameters.initial_velocity} m/s")
